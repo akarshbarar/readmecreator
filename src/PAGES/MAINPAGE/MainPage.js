@@ -10,7 +10,7 @@ function MainPage() {
     }
     return (
         <div className="mainpage">
-                 <Navbar/>
+            <Navbar/>
 
             
             <div id='stars'></div>

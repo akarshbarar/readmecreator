@@ -103,11 +103,11 @@
   padding: 15px;
   font-size: 18px;
   border-radius: 30px;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 .content{
   position: relative;
-  top: 50%;
+  top: 60%;
   max-width: 800px;
   margin: 0 auto; 
   text-align: center;
