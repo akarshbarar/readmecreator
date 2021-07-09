@@ -9,7 +9,6 @@ function Editor() {
             <Elements/>
             <MainEditor/>
             <Preview/>
-            Hi i am editor page
         </div>
     )
 }
