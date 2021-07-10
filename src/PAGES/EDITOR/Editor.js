@@ -6,9 +6,15 @@ import './Editor.css'
 function Editor() {
     return (
         <div className="editor">
+            <nav>
+                <div className="logo">ReadME_Creator</div>
+                <button className="btn btn-primary" onClick={() => {} }>Download</button>
+            </nav>
+            <div className="editor__content">
             <Elements/>
             <MainEditor/>
             <Preview/>
+            </div>
         </div>
     )
 }

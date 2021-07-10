@@ -3,7 +3,7 @@ import './Preview.css'
 function Preview() {
     return (
         <div className="preview">
-            <h1>Preview</h1>        
+           Preview       
         </div>
     )
 }
