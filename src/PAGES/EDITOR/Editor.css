@@ -11,7 +11,11 @@
     color: #ffffff;
     align-items: center;
 }
+.logo > a{
+    color:#fff;
+    text-decoration: none;
 
+}
 .editor > .editor__content{
     display: flex;
     justify-content: space-between;
