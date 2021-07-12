@@ -1,9 +1,11 @@
 
 import React, {useState} from 'react'
-
+import {useSelector,useDispatch} from 'react-redux';
+import { addToSelectedItemsToStore } from '../../STATE_MANAGE/ACTIONS';
 import './Elements.css'
 function Elements() {
-
+    const dispatch=useDispatch();
+    const selectedElementReducer = useSelector(state=>state.selectedElementReducer);
     const [selectedItems, setSelectedItems] = useState([]);
     var selectionItems=[
         "Acknowledgement",
@@ -37,6 +39,13 @@ function Elements() {
             return a;
         },[]);
         setSelectedItems(newSelectedItems);
+        dispatch(
+            addToSelectedItemsToStore(
+                {
+                    item
+                }
+            )
+        )
     }
     return (
         <div className="elements">
